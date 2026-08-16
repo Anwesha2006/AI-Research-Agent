@@ -5,6 +5,7 @@ class Settings(BaseSettings):
     APP_VERSION:str="1.0.0"
     DEBUG:bool=True
     #AI
+    TAVILY_API_KEY: str
     GEMINI_API_KEY: str
     #AI Settings
     GEMINI_MODEL:str="gemini-2.5-flash"
