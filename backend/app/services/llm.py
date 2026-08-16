@@ -7,5 +7,3 @@ model=ChatGoogleGenerativeAI(
     api_key=settings.GEMINI_API_KEY,
     temperature=settings.TEMPERATURE,
     max_output_tokens=settings.MAX_OUTPUT_TOKENS)
-result=model.invoke("Hello, how are you?")
-print(result.content)
